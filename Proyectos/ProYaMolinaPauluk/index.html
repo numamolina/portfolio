@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ProYa! Planes de Entrenamiento Profesional</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">ProYa!</p>
+            <nav>
+                <a href="#somos-proya">INICIO</a>
+                <a href="#nuestros-programas">Nuestros programas de entrenamiento</a>
+                <a href="#formulario">Formulario de inscripcion</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Entrená <br>con los Mejores</h1>
+        <form action="#formulario">
+        <button>INSCRIBITE!</button>
+        </form>
+    </section>
+
+    <section id="somos-proya">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Somos <span class="color-acento">ProYa!</span></h2>
+                <p>Si quieres mejorar tu forma física de manera controlada y sacar el máximo rendimiento posible al Centro de Fitness, el equipo de entrenadores del Club pone a tu disposición este nuevo programa de entrenamiento.
+                    <br> 
+                    <br> Se trata de un programa de entrenamiento mensual dirigido a todos aquellos socios que deseen realizar un entrenamiento personalizado de forma continuada. El programa comienza con una valoración inicial por nuestros entrenadores en la que se analizan parámetros como: fuerza, IMC, ICC, tensión arterial, test de VO2 max, etc.
+                    <br>
+                        <form action="#formulario">
+                            <button>INSCRIBITE!</button>
+                        </form>
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Nuestros programas de entrenamiento</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Nivel Basico</h3>
+                    <p>Adaptacion Anatomica: El objetivo es establecer una base para la fuerza, estabilidad, movilidad y destrezas de buenos movimientos en general durante la fase de Adaptación anatómica. Nuestro ejemplo de rutina minimiza el uso de equipamiento para los ejercicios.</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Nivel Intermedio</h3>
+                    <p>Fuerza con hipertrofia: Con el entrenamiento de fuerza también iremos consiguiendo un físico más estético, pero con una velocidad menor al de hipertrofia, ya que la prioridad del primero es, evidentemente, la ganancia de fuerza sobre la de tamaño.</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Nivel Avanzado</h3>
+                    <p>Fuerza maxima: Es el máximo peso que un individuo puede levantar realizando una sola repetición o movimiento, es decir, una repetición con el 100% de la carga. Este es un modo de buscar un aumento de fuerza sin un aumento del tamaño muscular</p>
+                    <button>+ Info</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="formulario">
+        <div class="container">
+            <form id="form" method="post" action="/gracias.html">
+                <h1>Inscripcion</h1>
+                <div class="input-control">
+                    <label for="username">Usuario</label>
+                    <input id="username" name="username" type="text">
+                    <div class="error"></div>
+                    <br>
+                </div>
+                <div class="input-control">
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                    <br>
+                </div>
+                <div class="input-control">
+                    <label for="telefono">Telefono</label>
+                    <input id="telefono"name="telefono" type="tel">
+                    <div class="error"></div>
+                    <br>
+                </div>
+                <div class="input-control">
+                    <label for="ciudad">ciudad</label>
+                    <input id="ciudad"name="ciudad" type="text">
+                    <div class="error"></div>
+                    <br>
+                </div>
+                <br>
+    
+                <button type="submit">Inscribirse</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>Listo para entrenar?</h2>
+        <form action="#formulario">
+
+        <button>INSCRIBITE YA!</button>
+    </form>
+    </section>
+
+    <footer>
+        <div class="container">
+           
+            <iframe src="gracias.html" style="border:none;" title="Iframe Example"></iframe> 
+            
+            <p>&copy; ProYa 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
